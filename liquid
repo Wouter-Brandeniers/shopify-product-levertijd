@@ -1,0 +1,7 @@
+       <div class="levertijd"> 
+      {% if product.metafields.my_fields.levertijd != '' %}
+      <p>Levertijd: <span class="variant-levertijd">{{ product.metafields.my_fields.levertijd }}</span></p>
+      {% else %}
+      <p>Neem contact met ons op voor de actuele levertijd</p>
+      {% endif %}
+      </div>
